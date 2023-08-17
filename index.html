@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painel</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="./assets/imagens/pino-de-localizacao.png" type="image/x-icon">
+
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <aside id="menu-oculto" class="menu-oculto">
+        <a href="javascript:void(0)" class="botao-fechar" onclick="fecharMenu()">&times;</a>
+        <a href="https://estudante.estacio.br/login" target="_blank">Conteúdos</a>
+        <a href="https://simulado.estacio.br/alunos/" target="_blank">Simulados</a>
+        <a href="https://api.whatsapp.com/send?phone=5511945137259&text=Ol%C3%A1.+Tenho+interesse+em+realizar+minha+inscri%C3%A7%C3%A3o+na+Est%C3%A1cio.&utm_source=pagina+estacio.br" target="_blank">WhatsApp</a>
+      </aside>
+      <section class="principal">
+        <span id="botao-aba" onclick="abrirMenu()">&#9776 Menu</span>
+      </section>
+      <div class="logo">
+        <img src="assets/imagens/estacio-logo2.png" alt="Logo Estácio">
+      </div>
+      <div class="homesair">
+        <div class="botao-home">
+          <a href="#">Home</a>
+        </div>
+        <div class="botao-sair">
+          <button onclick="sair()">Sair</button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="headline">
+          <h2 style="letter-spacing: 5px;">Seja Bem-Vindo ao melhor site de</h2>
+          <h2 style="font-size: 50px;">Suporte para Alunos!</h2>
+          <p>Olá, este é um site para auxiliar alunos no quesito de orientação pelo campus. Neste site você irá encontrar informações dos blocos A, B, C, D e E da instituição. Além de poder acessar simulados, conteúdo online e ter o contato da faculdade.</p>
+      </div>
+      <div class="img-headline">
+          <img style="max-width: 90%;" src="assets/imagens/imagem-headline3.jpeg" alt="Imagem Ilustrativa">
+      </div>
+  </header>
+
+    <h1 style="padding-top: 20px; font-size: 30px;"  id="logado"></h1>
+    
+    <main>
+        <a href="assets/html/blocoa.html" ><h2>A</h2></a>
+        <a href="assets/html/blocob.html" ><h2>B</h2></a>
+        <a href="assets/html/blococ.html" ><h2>C</h2></a>
+        <a href="assets/html/blocod.html" ><h2>D</h2></a>
+        <a href="assets/html/blocoe.html" ><h2>E</h2></a>
+    </main>
+
+    <footer>
+        <div class="logo-rodape">
+          <h1>Suporte para alunos</h1>
+          <p>Site feito por Cleber Sena e Caio Silva</p>
+        </div>
+      <b>© Todos os direitos reservados.</b>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
